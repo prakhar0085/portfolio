@@ -2,7 +2,7 @@
 
 An elite, high-performance portfolio system architected with **React 19**, **Vite**, and **Tailwind CSS**. Designed for developers who want to showcase their technical prowess through immersive motion design and clean systems architecture.
 
-![Portfolio Preview](public/vite.svg)
+🌐 **Live Demo:** [https://portfolio.com ](https://portfolio-navy-nine-25.vercel.app/)
 
 ## 🚀 Key Features
 
@@ -59,6 +59,4 @@ This project is optimized for **Vercel**. Deploying is simple:
 
 **Note:** The `vercel.json` file is already included to handle SPA routing, ensuring that page refreshes on sub-routes work perfectly.
 
-## 📄 License
 
-This project is licensed under the MIT License.
