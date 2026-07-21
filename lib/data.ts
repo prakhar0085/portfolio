@@ -19,6 +19,7 @@ export const NAV_LINKS = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
+  { label: 'Certifications', href: '#certifications' },
   { label: 'Services', href: '#services' },
   { label: 'Contact', href: '#contact' },
 ] as const;
@@ -776,6 +777,82 @@ export const CAREER_GOALS = [
   'Lead a small, high-trust team shipping agentic systems end-to-end.',
   'Contribute meaningfully to open-source AI tooling.',
   'Stay close to the code — senior individual contributor track.',
+];
+
+export type Certification = {
+  title: string;
+  issuer: string;
+  date: string;
+  id: string;
+  url: string;
+  description: string;
+};
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    title: 'AWS Certified Cloud Practitioner',
+    issuer: 'AWS (Ethnus)',
+    date: 'Jan 2025',
+    id: 'G62KDP2T',
+    url: 'https://drive.google.com/file/d/1yfNuCkhg255UE8mBV3Y8D5LZHRFGdj72/view?usp=sharing',
+    description: 'Validated knowledge of AWS Cloud platform, security, architecture, and billing practices via the Ethnus AWS Academy program.',
+  },
+  {
+    title: 'MERN Full Stack Certification',
+    issuer: 'Ethnus',
+    date: 'Dec 2024',
+    id: 'X53XC2TH',
+    url: 'https://drive.google.com/file/d/1aFSUv7O1GUgR5dQAtxzS40BxXfPiBLIS/view?usp=sharing',
+    description: 'Comprehensive bootcamp covering advanced React patterns, Node.js microservices, and MongoDB aggregations.',
+  },
+  {
+    title: 'DevOps Foundations: CI/CD',
+    issuer: 'LinkedIn',
+    date: 'Dec 2025',
+    id: '9e10bbb6...cbd58bd1112',
+    url: 'https://drive.google.com/file/d/1iypZgpfaWDe_zROY1cHRFNSxbObfV3yG/view?usp=sharing',
+    description: 'Mastered the principles of Continuous Integration and Deployment using modern toolchains.',
+  },
+  {
+    title: 'Docker for Developers',
+    issuer: 'LinkedIn',
+    date: 'Dec 2025',
+    id: 'd5739569...45289e74b6',
+    url: 'https://drive.google.com/file/d/1vrVOANw7B5GGyKjxP60gpGLJTPTTzO6V/view?usp=sharing',
+    description: 'In-depth training on containerization, multi-stage builds, and docker-compose for production environments.',
+  },
+  {
+    title: 'Python for Beginners',
+    issuer: 'Udemy',
+    date: 'Sep 2022',
+    id: 'UC-251e3ba5...',
+    url: 'https://drive.google.com/file/d/1aoPiXk0ef7Svpgf2Jeo-ZyL0uJ_-HK7U/view?usp=sharing',
+    description: 'Mastered Python fundamentals including data structures, object-oriented programming, and functional principles.',
+  },
+  {
+    title: 'Generative AI',
+    issuer: 'Oracle',
+    date: 'Sep 2025',
+    id: '102615554OCI25GAIOC',
+    url: 'https://drive.google.com/file/d/1cFmN3aD6A8UQyopskvoy57_y_dmIt32B/view?usp=sharing',
+    description: 'Completed Generative AI certification, working with LLMs, prompt engineering, and building AI applications using tools like OpenAI APIs and LangChain.',
+  },
+  {
+    title: 'GitHub',
+    issuer: 'LinkedIn',
+    date: 'Sep 2025',
+    id: '002c0786b8b0e292266f06397032c2e76b4e9e9168b2694697001d1ac74a9a39',
+    url: 'https://drive.google.com/file/d/12NxPxIWSPZ1TLSCtG9FDUn3EUPtLGVYF/view?usp=sharing',
+    description: 'Completed a GitHub certification, gaining practical knowledge of version control, repositories, branching, and collaboration workflows.',
+  },
+  {
+    title: 'Agentic AI',
+    issuer: 'Oracle',
+    date: 'July 2026',
+    id: '102615554AAI26OF',
+    url: 'https://drive.google.com/file/d/17OYWl0c7s9X3nhdeXpUfVw5vnIWf173k/view?usp=sharing',
+    description: 'Completed Agentic AI certification, gaining practical knowledge of AI Agent architecture and reasoning patterns (LLMs), tools, agent loops, MCP, LangChain, OpenAI Agents SDK, and Oracle AI Database.',
+  },
 ];
 
 export const SOCIAL_ICONS: Record<string, React.ComponentType<LucideProps>> = {

@@ -62,7 +62,7 @@ export function Navbar() {
           </a>
 
           <ul className="hidden md:flex items-center gap-0.5 text-sm">
-            {NAV_LINKS.slice(0, 7).map((link) => (
+            {NAV_LINKS.slice(0, 8).map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
